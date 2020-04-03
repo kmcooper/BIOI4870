@@ -28,8 +28,6 @@ class index:
         for eachFile in fileList:
             position = 1
             count = 0
-            # docName = "Doc_Id_" + str(docId)
-            # docName =  str(docId)
             docIdMap[docId] = eachFile
             lines = [line.rstrip('\n') for line in open(self.path + "/" + eachFile)]
 

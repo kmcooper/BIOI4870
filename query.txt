@@ -7,5 +7,5 @@ prince
 the
 they
 them
-us
-us the they them
+us 
+the they them us

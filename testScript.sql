@@ -2,7 +2,7 @@
 USE netid;
 
 -- Drop the dna_records table if it already exists
-DROP TABLE dna_records_1;
+DROP TABLE IF EXISTS dna_records_1;
 
 -- DDL to create table
 CREATE TABLE dna_records_1(
